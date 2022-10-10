@@ -73,8 +73,8 @@ Details of hyperparameter settings for various baselines can be found in the pap
 
 ## Reference
 If you want to use our codes and datasets in your research, please cite:
-```
 
+```
 @inproceedings{bc_loss,   
       author    = {An Zhang and
                    Wenchang Ma and 
