@@ -71,7 +71,20 @@ Details of hyperparameter settings for various baselines can be found in the pap
 - pytorch == 1.9.1+cu102
 
 
+## Reference
+If you want to use our codes and datasets in your research, please cite:
+```
 
+@inproceedings{bc_loss,   
+      author    = {An Zhang and
+                   Wenchang Ma and 
+                   Xiang Wang and 
+                   Tat-seng Chua}, 
+      title     = {Incorporating Bias-aware Margins into Contrastive Loss for Collaborative Filtering},  
+      booktitle = {{NeurIPS}},  
+      year      = {2022},   
+}
+```
 
 
 
