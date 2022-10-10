@@ -50,7 +50,14 @@ python == 3.7.10
 pytorch == 1.9.1+cu102
 
 
+## Reference
 
+@inproceedings{bc_loss,
+      title     = {Incorporating Bias-aware Margins into Contrastive Loss for Collaborative Filtering},
+      author    = {An Zhang and Wenchang Ma and Xiang Wang and Tat-seng Chua},
+      booktitle = {{NeurIPS}},
+      year      = {2022},
+}
 
 
 
