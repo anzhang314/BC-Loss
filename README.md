@@ -68,6 +68,8 @@ Details of hyperparameter settings for various baselines can be found in the pap
 
 - python == 3.7.10
 
+- tensorflow == 1.14
+
 - pytorch == 1.9.1+cu102
 
 
