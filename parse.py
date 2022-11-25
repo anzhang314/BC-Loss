@@ -49,7 +49,9 @@ def parse_args():
                         help='whether to use infonce loss or not')
     parser.add_argument('--num_workers', type=int, default=8,
                         help='number of workers in data loader')
-                        
+    parser.add_argument('--neg_sample', type=int, default=-1,
+                        help='negative sample ratio.')    
+
     # MACR
     parser.add_argument('--alpha', type=float, default=1e-3,
                         help='alpha')
