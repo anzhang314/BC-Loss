@@ -13,7 +13,7 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 import pandas as pd
 from torch.utils.data import Dataset, DataLoader
-from reckit import randint_choice
+from util import randint_choice
 
 
 # Helper function used when loading data from files
