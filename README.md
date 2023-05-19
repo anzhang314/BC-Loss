@@ -8,6 +8,13 @@ Official code of "Incorporating Bias-aware Margins into Contrastive Loss for Col
 
 ## Run the Code
 
+### Docker 
+Run below commands to build image and start container
+```
+docker build -t bcloss .
+docker run -dit -P -u $(id -u):$(id -g) -v /your/local/path/to/BC-Loss:/workspace/BC-Loss --gpus '"device=1"' --shm-size 16g --name bcloss_run bcloss:latest
+```
+
 - We provide implementation for various baselines presented in the paper.
 
 - We also provide the In-Distribution(test_id) and Out-of-Distribution(test_ood) test splits for Amazon-book, Tencent and Alibaba-Ifashion datasets, and temporal split for Douban.
